@@ -1,0 +1,44 @@
+.product{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+    .dataSection{
+        width: 300px;
+        height: 300px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgb(185, 185, 240);
+
+        h5{
+            margin-top: 20px;
+            text-align: center;
+        }
+        hr{
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+        .btn1{
+            margin-left: 10px;
+            display: block;
+            margin-top: 18px;
+            padding: 1px 20px 1px 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .btn1:hover{
+            color: blue;
+        }
+        .btn2{
+            padding: 2px 30px 2px 30px;
+            margin-top: 30px;
+            margin-left: 110px;
+            background-color: rgba(29, 75, 105, 0.85);
+            color: white;
+        }
+
+    }
+}

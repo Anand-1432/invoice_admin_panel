@@ -1,0 +1,28 @@
+#brand{
+    height: 100vh;
+
+
+    .btn5{
+        margin-top: 15px;
+        padding: 2px 20px 2px 20px;
+        margin-bottom: 15px;
+    }
+    .del{
+            margin-top: 25px;
+            padding: 5px 30px 5px 30px;
+            margin-bottom: 20px;
+            margin-left: 37.5%;
+    }
+
+}
+
+@media (max-width:500px) {
+    #brand{
+        .del{
+            margin-left: 30%;
+        }
+        .btn3{
+            margin-left: 46.5%;
+        }
+    }
+}
