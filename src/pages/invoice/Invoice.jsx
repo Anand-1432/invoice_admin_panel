@@ -9,7 +9,7 @@ const Invoice = () => {
                     <h5>Invoice Section</h5>
                     <hr />
 
-                    <Link to="/" className='btn1'>View Invoices</Link>
+                    <Link to="/invoice/invoice_view" className='btn1'>View Invoices</Link>
                     <Link to="/invoice/invoice_add" className='btn1'>Add invoice</Link>
                     <Link to="/invoice/invoice_update" className='btn1'>Update/Delete invoice</Link>
 

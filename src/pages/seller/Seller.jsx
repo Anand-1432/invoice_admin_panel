@@ -10,7 +10,7 @@ const Seller = () => {
                     <h5>Seller Section</h5>
                     <hr />
 
-                    <Link to="/" className='btn1'>View Sellers</Link>
+                    <Link to="/sellers/seller_view" className='btn1'>View Sellers</Link>
                     <Link to="/sellers/seller_add" className='btn1'>Add Seller</Link>
                     <Link to="/sellers/seller_update" className='btn1'>Update/Delete Seller</Link>
 

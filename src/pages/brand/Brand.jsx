@@ -10,7 +10,7 @@ const Brand = () => {
                     <h5>Brand Section</h5>
                     <hr />
 
-                    <Link to="/" className='btn1'>View Brands</Link>
+                    <Link to="/brands/brand_view" className='btn1'>View Brands</Link>
                     <Link to="/brands/brand_add" className='btn1'>Add Brand</Link>
                     <Link to="/brands/brand_update" className='btn1'>Update/Delete Brand</Link>
 

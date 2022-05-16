@@ -9,7 +9,7 @@ const User = () => {
                     <h5>User Section</h5>
                     <hr />
 
-                    <Link to="/" className='btn1'>View Users</Link>
+                    <Link to="/users/user_view" className='btn1'>View Users</Link>
                     <Link to="/users/user_add" className='btn1'>Add User</Link>
                     <Link to="/users/user_update" className='btn1'>Update/Delete User</Link>
 

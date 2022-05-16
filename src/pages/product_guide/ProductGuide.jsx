@@ -9,7 +9,6 @@ const ProductGuide = () => {
           <h5>Product Guide Section</h5>
           <hr />
 
-          <Link to="/" className='btn1'>View Product Guide</Link>
           <Link to="/product_guide/add_product_guide" className='btn1'>Add Product Guide</Link>
           <Link to="/product_guide/update_product_guide" className='btn1'>Update/Delete Product Guide</Link>
 

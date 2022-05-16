@@ -23,6 +23,12 @@ import UpdateService from "./pages/brand_service/updateService/UpdateService";
 import Invoice from "./pages/invoice/Invoice";
 import AddInvoice from "./pages/invoice/addInvoice/AddInvoice";
 import UpdateInvoice from "./pages/invoice/updateInvoice/UpdateInvoice";
+import ViewBrand from "./pages/brand/view_brand/ViewBrand";
+import ViewProducts from "./pages/products/view_product/ViewProducts";
+import ViewService from "./pages/brand_service/viewService/ViewService";
+import ViewInvoice from "./pages/invoice/viewInvoice/ViewInvoice";
+import ViewSeller from "./pages/seller/view_seller/ViewSeller";
+import ViewUser from "./pages/user/view_user/ViewUser";
 
 function App() {
   return (
@@ -32,6 +38,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
 
       <Route path="/products" element={<Product/>}/>
+      <Route path="/products/products_view" element={<ViewProducts/>}/>
       <Route path="/products/product_add" element={<AddProduct/>}/>
       <Route path="/products/product_update" element={<Updateproduct/>}/>
 
@@ -40,22 +47,27 @@ function App() {
       <Route path="/product_guide/update_product_guide" element={<UpdateGuide/>}/>
 
       <Route path="/brands" element={<Brand/>}/>
+      <Route path="/brands/brand_view" element={<ViewBrand/>}/>
       <Route path="/brands/brand_add" element={<AddBrand/>}/>
       <Route path="/brands/brand_update" element={<UpdateBrand/>}/>
 
       <Route path="/brand_service" element={<BrandService/>}/>
+      <Route path="/brand_service/view_brand_service" element={<ViewService/>}/>
       <Route path="/brand_service/add_brand_service" element={<AddService/>}/>
       <Route path="/brand_service/update_brand_service" element={<UpdateService/>}/>
 
       <Route path="/sellers" element={<Seller/>}/>
+      <Route path="/sellers/seller_view" element={<ViewSeller/>}/>
       <Route path="/sellers/seller_add" element={<AddSeller/>}/>
       <Route path="/sellers/seller_update" element={<UpdateSeller/>}/>
 
       <Route path="/users" element={<User/>}/>
+      <Route path="/users/user_view" element={<ViewUser/>}/>
       <Route path="/users/user_add" element={<AddUser/>}/>
       <Route path="/users/user_update" element={<UpdateUser/>}/>
 
       <Route path="/invoice" element={<Invoice/>}/>
+      <Route path="/invoice/invoice_view" element={<ViewInvoice/>}/>
       <Route path="/invoice/invoice_add" element={<AddInvoice/>}/>
       <Route path="/invoice/invoice_update" element={<UpdateInvoice/>}/>
 
